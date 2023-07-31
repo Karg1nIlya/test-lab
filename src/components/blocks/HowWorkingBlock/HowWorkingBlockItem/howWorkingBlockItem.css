@@ -1,0 +1,40 @@
+.how-working-block-item {
+    max-width: 17.5rem;
+    height: auto;
+    margin: 0 2rem 2rem 0;
+}
+
+.how-working-block-item__img {
+    height: 4.5rem;
+    width: auto;
+}
+
+.how-working-block-item__title {
+    margin: 1rem 0 0.25rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.how-working-block-item__desc {
+    color: #5E646A;
+    line-height: 1.5rem;
+}
+
+.how-working-block-item:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+@media (max-width: 1216px) {
+
+    .how-working-block-item {
+        max-width: 21.375rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .how-working-block-item {
+        margin-right: 0;
+    }
+}

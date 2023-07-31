@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__item {
+    margin-right: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
+
+.navigation__item:hover {
+    text-decoration: underline;
+    color: #ECEFF2;
+}

@@ -1,0 +1,37 @@
+.how-working-block {
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+.how-working-block__title {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.how-working-block__items {
+    max-width: 76rem;
+    margin: 3.81rem auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1216px) {
+    
+    .how-working-block__items {
+        max-width: 44.875rem;
+    }
+
+    .how-working-block-item:nth-child(2n+2) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .how-working-block__items {
+        max-width: 21.375rem;
+    }
+}

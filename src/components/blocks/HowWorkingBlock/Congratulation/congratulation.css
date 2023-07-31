@@ -1,0 +1,81 @@
+.congratulation {
+    margin: 3rem auto 5rem auto;
+    display: flex;
+    justify-content: center;
+    max-width: 76rem;
+}
+
+.congratulation__words {
+    max-width: 36rem;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.congratulation__img {
+    max-width: 37rem;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.congratulation__phone-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.congratulation__truck-img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.congratulation__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.125rem;
+    line-height: 2.5rem;
+}
+
+.congratulation__text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5E646A;
+    line-height: 1.75rem;
+}
+
+.congratulation__text > p:first-child {
+    margin-bottom: 1.75rem;
+}
+
+@media (max-width: 1216px) {
+
+    .congratulation {
+        max-width: 44.875rem;
+    }
+    
+    .congratulation__img {
+        width: 22rem;
+    }
+
+    .congratulation__words {
+        width: 22rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .congratulation {
+        max-width: 21.375rem;
+        flex-direction: column-reverse;
+    }
+
+    .congratulation__title {
+        text-align: center;
+    }
+
+    .congratulation__text {
+        text-align: center;
+    }
+}

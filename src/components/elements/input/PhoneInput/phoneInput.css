@@ -1,0 +1,49 @@
+.phone-input__container {
+    background-color: white;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem .25rem 1rem;
+    border: 2px solid #C2C8CD;
+    border-radius: 0.25rem;
+}
+
+.phone-input--active {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem .25rem 1rem;
+    border: 2px solid #F13636;
+    border-radius: 0.25rem;
+}
+
+.phone-input__wrapper {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone-input__wrapper > input {
+    width: 90%;
+    border: none;
+    height: 2rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.phone-input__wrapper > input:focus {
+    outline: none;
+}
+
+.phone-input__placeholder {
+    color: #5E646A;
+}
+
+.phone-input__img {
+    width: 10%;
+    height: auto;
+}

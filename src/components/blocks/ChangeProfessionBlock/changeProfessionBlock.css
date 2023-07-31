@@ -1,0 +1,58 @@
+.change-profession-block {
+    width: 100%;
+    height: 60rem;
+    background-image: url('https://s3-alpha-sig.figma.com/img/8554/baa0/001eb356c32ad4981cc30981c06e60b2?Expires=1691366400&Signature=kqY2A8Mz9eJcNFbTMoFQ4w0D4zrYtIj2iOUcvbPrwQ1hOJh02SIUf5URCRK00yVKpQxbtQTAx9g5GGzrnBtoX7GITBJ2lVH9gR2~IBzZ6Hg2F2KRXF6e~a-7D~xvgP5HLAmaj4J5DB1XwN30fsvp-IUOI67Q01pjR~S9vdUgw7N4jQ45hzYfLtnQB3FEjh7YeuSpCRn0wPBhD3ZDlSyx5NYkLh-XD2EbxvJQ2ElrB~MFSx7salWwYYGivTOvBKJp2WKsuDxUyJncuh6TP2FnEDqrM25X9btA2jef1Uict3O-FU3XsnG-BOrvSM9HReDLgpw9REPAKdAd0FZcaeScRg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.change-profession-block:after {
+    background: rgba(42,108,234, 0.8);
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.change-profession-block__title {
+    margin-top: 14.56rem;
+    font-size: 3.25rem;
+    font-weight: 600;
+    max-width: 46.75rem;
+    height: auto;
+    text-align: center;
+}
+
+.change-profession-block__subtitle {
+    margin-top: 1.13rem;
+    max-width: 30rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.change-profession-block__easy-btn {
+    margin-top: 5.75rem;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.25rem;
+    background-color: #ECEFF2;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.change-profession-block__easy-btn:hover {
+    background-color: white;
+}
